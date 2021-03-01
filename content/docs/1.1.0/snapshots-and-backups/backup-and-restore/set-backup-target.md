@@ -111,7 +111,7 @@ We provides two testing purpose backupstore based on NFS server and Minio S3 ser
 2. Go to the Longhorn UI. In the top navigation bar, click **Settings.** In the Backup section, set **Backup Target** to
 
     ```
-    s3://backupbucket@us-east-1/
+    s3://<bucket_name>@minio/
     ```
     And set **Backup Target Credential Secret** to:
     ```
